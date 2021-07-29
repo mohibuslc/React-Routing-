@@ -14,7 +14,7 @@ const Friends = (props) => {
     }
     return (
         <div style={friendsSty}>
-            <h1>Friend ID <Link to ={`/friend/${id}`}>Show Details:{id}</Link> </h1>
+            <h1>Friend ID <Link to ={`/friend/${id}`}>Friend_Detail: {id}</Link> </h1>
             <p>Friend name: {name}</p>
             
             <p>Email Address: {email}</p>
